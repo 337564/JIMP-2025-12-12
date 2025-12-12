@@ -6,7 +6,7 @@
 
 
 int main(int argc, char ** argv) {
-	int res;
+	int res; 
 	Matrix * A = readFromFile(argv[1]);
 	Matrix * b = readFromFile(argv[2]);
 	Matrix * x;
